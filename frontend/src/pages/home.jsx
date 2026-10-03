@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import './App.css'
+import '../portfolio.css'
 
-function App() {
+function home() {
 
   return (
     <>
@@ -10,4 +10,4 @@ function App() {
   )
 }
 
-export default App
+export default home
