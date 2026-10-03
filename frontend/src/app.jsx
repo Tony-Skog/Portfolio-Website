@@ -1,12 +1,12 @@
 import { Routes, Route } from 'react-router'
-import home from './pages/home.jsx'
-import about from './pages/about.jsx'
-import projects from './pages/projects.jsx'
-import resume from './pages/resume.jsx'
-import contact from './components/contact.jsx'
-import layout from './components/layout.jsx'
+import Home from './pages/home.jsx'
+import About from './pages/about.jsx'
+import Projects from './pages/projects.jsx'
+import Resume from './pages/resume.jsx'
+import Contact from './components/contact.jsx'
+import Layout from './components/layout.jsx'
 
-function app() {
+function App() {
     return (
         <Routes>
             <Route element={<Layout />}>
@@ -20,7 +20,5 @@ function app() {
         </Routes>
     )
 }
-
-const App = app
 
 export default App

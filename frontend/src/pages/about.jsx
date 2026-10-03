@@ -1,6 +1,6 @@
 import '../portfolio.css'
 
-function about() {
+function About() {
     return (
         <section id="about">
             <h1 className="title">About</h1>
@@ -8,7 +8,5 @@ function about() {
         </section>
     )
 }
-
-const About = about
 
 export default About

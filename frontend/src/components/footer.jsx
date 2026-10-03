@@ -1,11 +1,9 @@
-function footer() {
+function Footer() {
     return (
         <footer>
             <p>Tony</p>
         </footer>
     )
 }
-
-const Footer = footer
 
 export default Footer

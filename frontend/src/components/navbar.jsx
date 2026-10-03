@@ -1,6 +1,6 @@
 import { Link } from 'react-router'
 
-function navbar() {
+function Navbar() {
     return(
         <>
             <nav>
@@ -15,7 +15,5 @@ function navbar() {
         </>
     )
 }
-
-const Navbar = navbar
 
 export default Navbar

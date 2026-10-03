@@ -1,6 +1,6 @@
 import '../portfolio.css'
 
-function resume() {
+function Resume() {
     return (
         <section id="resume">
             <h1 className="title">Resume</h1>
@@ -8,7 +8,5 @@ function resume() {
         </section>
     )
 }
-
-const Resume = resume
 
 export default Resume

@@ -1,6 +1,6 @@
 import '../portfolio.css'
 
-function contact() {
+function Contact() {
     return (
         <section id="contact">
             <h1 className="title">Contact</h1>
@@ -8,7 +8,5 @@ function contact() {
         </section>
     )
 }
-
-const Contact = contact
 
 export default Contact

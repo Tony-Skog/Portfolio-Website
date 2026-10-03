@@ -1,6 +1,6 @@
 import '../portfolio.css'
 
-function home() {
+function Home() {
     return (
         <section id="home">
             <h1 className="title">Welcome to My Portfolio</h1>
@@ -8,7 +8,5 @@ function home() {
         </section>
     )
 }
-
-const Home = home
 
 export default Home
