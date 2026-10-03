@@ -1,0 +1,26 @@
+.title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+}
+.subtitle{
+    font-size: 1.5rem;
+    color: black;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+main{
+    padding: 1rem;
+}
+footer{
+    padding: 1rem;
+    border-top: 1px solid #ccc;
+}
