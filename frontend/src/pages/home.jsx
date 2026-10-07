@@ -1,10 +1,16 @@
+import portrait from '../../images/Athony-Skogund-centered.jpg'
+import FeaturedProjects from '../components/featuredProjects.jsx'
 import '../portfolio.css'
 
 function Home() {
     return (
-        <section id="home">
-            <h1 className="title">Welcome to My Portfolio</h1>
-            <p className="subtitle">This is a brief introduction about myself and my work.</p>
+        <section id="home" className="home">
+            <img className="home-portrait" src={portrait} alt="Tony Skogund" />
+            <h1 className="home-name">Tony Skogund</h1>
+            <p className="home-intro">
+                Welcome to my portfolio.
+            </p>
+            <FeaturedProjects />
         </section>
     )
 }

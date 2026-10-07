@@ -1,3 +1,4 @@
+/* -----------Text Styles------------ */
 .title{
     font-size: 2.5rem;
     font-weight: bold;
@@ -7,6 +8,81 @@
     font-size: 1.5rem;
     color: black;
 }
+/* ------------Home Page------------- */
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.home-portrait{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.home-name{
+    margin: 0;
+    font-size: 2.25rem;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+.home-intro{
+    max-width: 32rem;
+    margin: 0;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    text-align: center;
+    color: black;
+}
+/* --------Featured Projects--------- */
+.featured{
+    width: 100%;
+    margin-top: 0;
+}
+.featured-heading{
+    margin: 0 0 0.5rem;
+    font-size: 1.5rem;
+    text-align: left;
+    color: black;
+}
+.featured-track{
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-padding-left: 1rem;
+    padding: 0 1rem;
+    scrollbar-width: thin;
+}
+.featured-card{
+    flex: 0 0 calc(100% - 2rem);
+    scroll-snap-align: start;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: white;
+}
+.featured-shot{
+    width: 100%;
+    aspect-ratio: 16 / 7;
+    border: 1px dashed #999;
+    border-radius: 6px;
+    background: #f5f5f5;
+}
+.featured-title{
+    margin: 0.75rem 0 0.25rem;
+    font-size: 1.25rem;
+    color: black;
+}
+.featured-desc{
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: black;
+}
+/* --------------Navbar-------------- */
 .navbar{
     position: relative;
     display: flex;
@@ -64,6 +140,7 @@
     text-decoration: none;
     color: black;
 }
+/* --------------Layout-------------- */
 main{
     padding: 1rem;
 }
@@ -71,7 +148,7 @@ footer{
     padding: 1rem;
     border-top: 1px solid #ccc;
 }
-/* Media queries for desktop and mobile views */
+/* -----------Desktop View----------- */
 @media (min-width: 768px) and (orientation: landscape){
     .navbar-menu{
         display: flex;
@@ -79,6 +156,7 @@ footer{
         margin-left: auto;
     }
 }
+/* -----------Mobile View------------ */
 @media (max-width: 767px), (orientation: portrait){
 .hamburger-wrap{
         display: block;
