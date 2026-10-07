@@ -3,10 +3,8 @@ import { Link } from 'react-router'
 
 const links = [
     { to: '/', label: 'Home' },
-    { to: '/about', label: 'About' },
     { to: '/projects', label: 'Projects' },
     { to: '/resume', label: 'Resume' },
-    { to: '/contact', label: 'Contact' },
 ]
 // Navbar component with hamburger menu for a better mobile experience. 
 // The menu is hidden by default and can be toggled open or closed by clicking the hamburger button. 
